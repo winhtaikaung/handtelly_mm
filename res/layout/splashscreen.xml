@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CECCCC"
+    
+     >
+     
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#AF0404"
+        android:text="EPIC Solutions" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/logo" />
+<Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="100dp"
+        android:text="s "
+        android:textSize="35dp"
+        android:background="#E99090"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="စိပ္ပုတီး" 
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:background="#AF0404"/>
+    
+   
+</RelativeLayout>

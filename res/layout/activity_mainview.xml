@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"	
+	android:background="#0B8CC9"
+	
+    >
+<!-- android:background="@drawable/bg" android:tileMode="repeat" android:id="@+id/backgroundUI"-->
+    <LinearLayout
+        android:id="@+id/imgcontainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingTop="1dp"
+            
+            android:text="ဝ"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:clickable="false" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingTop="1dp"
+            android:text="ဝ"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:clickable="false" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingTop="1dp"
+            android:text="ဝ"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:clickable="false" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:paddingBottom="15dp"
+            android:paddingTop="1dp"
+            android:text="ဝ"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:clickable="false" >
+        </Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btncount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_normal"
+        android:text="ဤေနရာ ကို ႏွိပ္ပါ" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btncount"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:text="ၿပန္စရန္"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/btnreset" />
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgcontainer"
+        android:layout_alignParentTop="true"
+        android:text="ၿမန္မာ စိပ္ပုတီး"        
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="အခမဲ့ ၿဖန့္ေ၀သည္။"
+        android:textColor="#FFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
+
+
