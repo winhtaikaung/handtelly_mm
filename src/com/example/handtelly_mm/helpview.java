@@ -18,7 +18,7 @@ public class helpview extends Activity {
 	    private void sethelpcontent(){
 	    	helpcontent=(TextView) findViewById(R.id.helpcontent);
 	    	
-	    	helpcontent.setText("ပုတီးစိပ္ရန္ အလည္မွအဝိုင္းေလးကိုႏွိပ္ပါ။\n\nအကယ္၍ အသစ္ၿပန္စလိုပါက \"ၿပန္စရန္\" ခလုပ္ေလးကိုႏွိပ္ ၍ အစမွၿပန္၍ပုတီးစိပ္နိုင္ပါသည္။ ");
+	    	helpcontent.setText("ပုတီးစိပ္ရန္ အလည္မွအဝိုင္းေလးကိုႏွိပ္ပါ။\n\nအကယ္၍ အသစ္ၿပန္စလိုပါက \"ၿပန္စရန္\" ခလုပ္ေလးကိုႏွိပ္ ၍ အစမွၿပန္၍ပုတီးစိပ္နိုင္ပါသည္။\n\nPlease Make Sure to be installed Zaw-Gyi Font!");
 	    	
 	    }
 }

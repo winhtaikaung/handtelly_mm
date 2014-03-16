@@ -31,7 +31,9 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="36dp"
-        android:textSize="25dp"
+        android:textSize="18dp"
+       
+        android:scrollbars = "vertical"
         android:text="" />
 
 </RelativeLayout>

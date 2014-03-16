@@ -84,7 +84,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button_normal"
+        android:background="@drawable/push_button"
+       android:textColor="#FFF"
+       android:textSize="20dp"
         android:text="ဤေနရာ ကို ႏွိပ္ပါ" />
 
     <TextView
@@ -114,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imgcontainer"
         android:layout_alignParentTop="true"
-        android:text="ၿမန္မာ စိပ္ပုတီး"        
+        android:text="စိပ္ပုတီး"        
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -124,7 +126,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="အခမဲ့ ၿဖန့္ေ၀သည္။"
+        android:text="အခမဲ့ ၿဖန္ ့ေဝသည္။"
         android:textColor="#FFF"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 

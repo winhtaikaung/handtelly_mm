@@ -48,24 +48,25 @@ public final class R {
         public static final int one_128px=0x7f020018;
         public static final int one_128px_left=0x7f020019;
         public static final int one_128px_right=0x7f02001a;
-        public static final int seven_128px=0x7f02001b;
-        public static final int seven_128px_left=0x7f02001c;
-        public static final int seven_128px_right=0x7f02001d;
-        public static final int six_128px=0x7f02001e;
-        public static final int six_128px_left=0x7f02001f;
-        public static final int six_128px_right=0x7f020020;
-        public static final int three_128px=0x7f020021;
-        public static final int three_128px_left=0x7f020022;
-        public static final int three_128px_right=0x7f020023;
-        public static final int two_128px=0x7f020024;
-        public static final int two_128px_left=0x7f020025;
-        public static final int two_128px_right=0x7f020026;
-        public static final int zero_128px_left=0x7f020027;
-        public static final int zero_128px_mid=0x7f020028;
-        public static final int zero_128px_right=0x7f020029;
+        public static final int push_button=0x7f02001b;
+        public static final int seven_128px=0x7f02001c;
+        public static final int seven_128px_left=0x7f02001d;
+        public static final int seven_128px_right=0x7f02001e;
+        public static final int six_128px=0x7f02001f;
+        public static final int six_128px_left=0x7f020020;
+        public static final int six_128px_right=0x7f020021;
+        public static final int three_128px=0x7f020022;
+        public static final int three_128px_left=0x7f020023;
+        public static final int three_128px_right=0x7f020024;
+        public static final int two_128px=0x7f020025;
+        public static final int two_128px_left=0x7f020026;
+        public static final int two_128px_right=0x7f020027;
+        public static final int zero_128px_left=0x7f020028;
+        public static final int zero_128px_mid=0x7f020029;
+        public static final int zero_128px_right=0x7f02002a;
     }
     public static final class id {
-        public static final int about=0x7f080010;
+        public static final int about=0x7f080011;
         public static final int aboutcontent=0x7f080002;
         public static final int btn1=0x7f080007;
         public static final int btn2=0x7f080006;
@@ -74,14 +75,15 @@ public final class R {
         public static final int btncount=0x7f080008;
         public static final int btnreset=0x7f080009;
         public static final int button1=0x7f080001;
-        public static final int button3=0x7f08000e;
-        public static final int contact=0x7f08000f;
-        public static final int help=0x7f080011;
-        public static final int helpcontent=0x7f08000d;
+        public static final int button3=0x7f08000f;
+        public static final int contact=0x7f080010;
+        public static final int help=0x7f080012;
+        public static final int helpcontent=0x7f08000e;
         public static final int imageView1=0x7f08000c;
         public static final int imgcontainer=0x7f080003;
         public static final int textView1=0x7f080000;
         public static final int textView2=0x7f08000b;
+        public static final int txtabtme=0x7f08000d;
         public static final int txttitle=0x7f08000a;
     }
     public static final class layout {
